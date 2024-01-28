@@ -35,5 +35,4 @@ def extract_text():
         return jsonify({'error': 'Unsupported file format'}), 400
 
 if __name__ == '__main__':
-    from waitress import serve
-    serve(app, port=8080)
+    app.run(port=8080)

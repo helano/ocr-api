@@ -35,4 +35,4 @@ def extract_text():
         return jsonify({'error': 'Unsupported file format'}), 400
 
 if __name__ == '__main__':
-    app.run(debug=True, port=443)
+    app.run(port=443)

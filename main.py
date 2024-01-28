@@ -3,6 +3,7 @@ from flask_cors import CORS
 from pdf2image import convert_from_bytes
 import pytesseract
 from waitress import serve
+from PIL import Image
 
 
 app = Flask(__name__)
